@@ -1,0 +1,31 @@
+﻿.colorcycle {
+    background-color: #FF324A;
+    -webkit-animation-name: colorcycle; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 15s; /* Safari 4.0 - 8.0 */
+    animation-name: colorcycle;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes colorcycle {
+    from {
+        background-color: #FF324A;
+    }
+
+    to {
+        background-color: #319BFF;
+    }
+}
+
+/* Standard syntax */
+@keyframes colorcycle {
+    from {
+        background-color: #FF324A;
+    }
+
+    to {
+        background-color: #319BFF;
+    }
+}

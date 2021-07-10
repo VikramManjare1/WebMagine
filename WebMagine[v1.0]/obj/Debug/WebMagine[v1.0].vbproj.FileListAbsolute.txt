@@ -1,0 +1,51 @@
+C:\Users\India\Documents\Visual Studio 2015\Projects\WebMagine[v1.0]\WebMagine[v1.0]\bin\Debug\WebMagine[v1.0].exe.config
+C:\Users\India\Documents\Visual Studio 2015\Projects\WebMagine[v1.0]\WebMagine[v1.0]\bin\Debug\WebMagine[v1.0].exe
+C:\Users\India\Documents\Visual Studio 2015\Projects\WebMagine[v1.0]\WebMagine[v1.0]\bin\Debug\WebMagine[v1.0].pdb
+C:\Users\India\Documents\Visual Studio 2015\Projects\WebMagine[v1.0]\WebMagine[v1.0]\bin\Debug\WebMagine[v1.0].xml
+C:\Users\India\Documents\Visual Studio 2015\Projects\WebMagine[v1.0]\WebMagine[v1.0]\bin\Debug\EO.Web.xml
+C:\Users\India\Documents\Visual Studio 2015\Projects\WebMagine[v1.0]\WebMagine[v1.0]\bin\Debug\EO.WebBrowser.xml
+C:\Users\India\Documents\Visual Studio 2015\Projects\WebMagine[v1.0]\WebMagine[v1.0]\bin\Debug\EO.WebEngine.xml
+C:\Users\India\Documents\Visual Studio 2015\Projects\WebMagine[v1.0]\WebMagine[v1.0]\bin\Debug\PropertyGridEx.pdb
+C:\Users\India\Documents\Visual Studio 2015\Projects\WebMagine[v1.0]\WebMagine[v1.0]\bin\Debug\PropertyGridEx.xml
+C:\Users\India\Documents\Visual Studio 2015\Projects\WebMagine[v1.0]\WebMagine[v1.0]\obj\Debug\WebMagine[v1.0].vbprojResolveAssemblyReference.cache
+C:\Users\India\Documents\Visual Studio 2015\Projects\WebMagine[v1.0]\WebMagine[v1.0]\obj\Debug\EasyWebSimple.DlgNewPage.resources
+C:\Users\India\Documents\Visual Studio 2015\Projects\WebMagine[v1.0]\WebMagine[v1.0]\obj\Debug\EasyWebSimple.DlgNewProject.resources
+C:\Users\India\Documents\Visual Studio 2015\Projects\WebMagine[v1.0]\WebMagine[v1.0]\obj\Debug\EasyWebSimple.IDE.resources
+C:\Users\India\Documents\Visual Studio 2015\Projects\WebMagine[v1.0]\WebMagine[v1.0]\obj\Debug\EasyWebSimple.IDEIntroSimpleButtons.resources
+C:\Users\India\Documents\Visual Studio 2015\Projects\WebMagine[v1.0]\WebMagine[v1.0]\obj\Debug\EasyWebSimple.IDEMenu.resources
+C:\Users\India\Documents\Visual Studio 2015\Projects\WebMagine[v1.0]\WebMagine[v1.0]\obj\Debug\EasyWebSimple.ucIntroVideoProperties.resources
+C:\Users\India\Documents\Visual Studio 2015\Projects\WebMagine[v1.0]\WebMagine[v1.0]\obj\Debug\EasyWebSimple.ucIntroImageProperties.resources
+C:\Users\India\Documents\Visual Studio 2015\Projects\WebMagine[v1.0]\WebMagine[v1.0]\obj\Debug\EasyWebSimple.ucIntroBGImageCover.resources
+C:\Users\India\Documents\Visual Studio 2015\Projects\WebMagine[v1.0]\WebMagine[v1.0]\obj\Debug\EasyWebSimple.ucIntroSimpleCover.resources
+C:\Users\India\Documents\Visual Studio 2015\Projects\WebMagine[v1.0]\WebMagine[v1.0]\obj\Debug\EasyWebSimple.ucIntroSimpleProperties.resources
+C:\Users\India\Documents\Visual Studio 2015\Projects\WebMagine[v1.0]\WebMagine[v1.0]\obj\Debug\EasyWebSimple.ucMenuProperties.resources
+C:\Users\India\Documents\Visual Studio 2015\Projects\WebMagine[v1.0]\WebMagine[v1.0]\obj\Debug\EasyWebSimple.Resources.resources
+C:\Users\India\Documents\Visual Studio 2015\Projects\WebMagine[v1.0]\WebMagine[v1.0]\obj\Debug\EasyWebSimple.Startup.resources
+C:\Users\India\Documents\Visual Studio 2015\Projects\WebMagine[v1.0]\WebMagine[v1.0]\obj\Debug\WebMagine[v1.0].vbproj.GenerateResource.Cache
+C:\Users\India\Documents\Visual Studio 2015\Projects\WebMagine[v1.0]\WebMagine[v1.0]\obj\Debug\WebMagine[v1.0].exe
+C:\Users\India\Documents\Visual Studio 2015\Projects\WebMagine[v1.0]\WebMagine[v1.0]\obj\Debug\WebMagine[v1.0].xml
+C:\Users\India\Documents\Visual Studio 2015\Projects\WebMagine[v1.0]\WebMagine[v1.0]\obj\Debug\WebMagine[v1.0].pdb
+D:\Saves\IMP Project\Projects\WebMagine[v1.0]\WebMagine[v1.0]\bin\Debug\WebMagine[v1.0].exe.config
+D:\Saves\IMP Project\Projects\WebMagine[v1.0]\WebMagine[v1.0]\bin\Debug\WebMagine[v1.0].exe
+D:\Saves\IMP Project\Projects\WebMagine[v1.0]\WebMagine[v1.0]\bin\Debug\WebMagine[v1.0].pdb
+D:\Saves\IMP Project\Projects\WebMagine[v1.0]\WebMagine[v1.0]\bin\Debug\WebMagine[v1.0].xml
+D:\Saves\IMP Project\Projects\WebMagine[v1.0]\WebMagine[v1.0]\obj\Debug\WebMagine[v1.0].vbprojResolveAssemblyReference.cache
+D:\Saves\IMP Project\Projects\WebMagine[v1.0]\WebMagine[v1.0]\obj\Debug\EasyWebSimple.DlgNewPage.resources
+D:\Saves\IMP Project\Projects\WebMagine[v1.0]\WebMagine[v1.0]\obj\Debug\EasyWebSimple.DlgNewProject.resources
+D:\Saves\IMP Project\Projects\WebMagine[v1.0]\WebMagine[v1.0]\obj\Debug\EasyWebSimple.IDE.resources
+D:\Saves\IMP Project\Projects\WebMagine[v1.0]\WebMagine[v1.0]\obj\Debug\EasyWebSimple.IDEIntroSimpleButtons.resources
+D:\Saves\IMP Project\Projects\WebMagine[v1.0]\WebMagine[v1.0]\obj\Debug\EasyWebSimple.IDEMenu.resources
+D:\Saves\IMP Project\Projects\WebMagine[v1.0]\WebMagine[v1.0]\obj\Debug\EasyWebSimple.ucIntroVideoProperties.resources
+D:\Saves\IMP Project\Projects\WebMagine[v1.0]\WebMagine[v1.0]\obj\Debug\EasyWebSimple.ucIntroImageProperties.resources
+D:\Saves\IMP Project\Projects\WebMagine[v1.0]\WebMagine[v1.0]\obj\Debug\EasyWebSimple.ucIntroBGImageCover.resources
+D:\Saves\IMP Project\Projects\WebMagine[v1.0]\WebMagine[v1.0]\obj\Debug\EasyWebSimple.ucIntroSimpleCover.resources
+D:\Saves\IMP Project\Projects\WebMagine[v1.0]\WebMagine[v1.0]\obj\Debug\EasyWebSimple.ucIntroSimpleProperties.resources
+D:\Saves\IMP Project\Projects\WebMagine[v1.0]\WebMagine[v1.0]\obj\Debug\EasyWebSimple.ucMenuProperties.resources
+D:\Saves\IMP Project\Projects\WebMagine[v1.0]\WebMagine[v1.0]\obj\Debug\EasyWebSimple.Resources.resources
+D:\Saves\IMP Project\Projects\WebMagine[v1.0]\WebMagine[v1.0]\obj\Debug\EasyWebSimple.Startup.resources
+D:\Saves\IMP Project\Projects\WebMagine[v1.0]\WebMagine[v1.0]\obj\Debug\WebMagine[v1.0].vbproj.GenerateResource.cache
+D:\Saves\IMP Project\Projects\WebMagine[v1.0]\WebMagine[v1.0]\obj\Debug\WebMagine[v1.0].vbproj.CoreCompileInputs.cache
+D:\Saves\IMP Project\Projects\WebMagine[v1.0]\WebMagine[v1.0]\obj\Debug\WebMagine[v1.0].vbproj.CopyComplete
+D:\Saves\IMP Project\Projects\WebMagine[v1.0]\WebMagine[v1.0]\obj\Debug\WebMagine[v1.0].exe
+D:\Saves\IMP Project\Projects\WebMagine[v1.0]\WebMagine[v1.0]\obj\Debug\WebMagine[v1.0].xml
+D:\Saves\IMP Project\Projects\WebMagine[v1.0]\WebMagine[v1.0]\obj\Debug\WebMagine[v1.0].pdb

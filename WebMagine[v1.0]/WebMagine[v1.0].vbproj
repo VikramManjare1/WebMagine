@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{620014A0-7095-4752-829F-FF0650140F2B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>EasyWebSimple.EasyWebSimple.Program</StartupObject>
+    <RootNamespace>EasyWebSimple</RootNamespace>
+    <AssemblyName>WebMagine[v1.0]</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsFormsWithCustomSubMain</MyType>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>WebMagine[v1.0].xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>WebMagine[v1.0].xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Icon256.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EO.Base, Version=17.0.31.0, Culture=neutral, PublicKeyToken=e92353a6bf73fffc" />
+    <Reference Include="EO.Web">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Essential Objects\EO.Total 2017\EO.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="EO.WebBrowser">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Essential Objects\EO.Total 2017\EO.WebBrowser.dll</HintPath>
+    </Reference>
+    <Reference Include="EO.WebEngine, Version=17.0.31.0, Culture=neutral, PublicKeyToken=e92353a6bf73fffc, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Essential Objects\EO.Total 2017\EO.WebEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="PropertyGridEx">
+      <HintPath>..\..\..\..\..\Music\up.bak\Support Pages\Property Grid 2\src\propertygridex_demo\PropertyGridEx\PropertyGridEx\bin\Debug\PropertyGridEx.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Modules\DlgNewPage.Designer.vb">
+      <DependentUpon>DlgNewPage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\DlgNewPage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\DlgNewProject.Designer.vb">
+      <DependentUpon>DlgNewProject.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\DlgNewProject.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\fxABSAbsolute.vb" />
+    <Compile Include="Modules\fxISMIntroSimpleManipulation.vb" />
+    <Compile Include="Modules\fxJSPureJS.vb" />
+    <Compile Include="Modules\fxMNMenuManipulation.vb" />
+    <Compile Include="Modules\fxWPWebPage.vb" />
+    <Compile Include="Modules\IDE.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\IDE.Designer.vb">
+      <DependentUpon>IDE.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\fxMBMessageBox.vb" />
+    <Compile Include="Modules\IDEIntroSimpleButtons.Designer.vb">
+      <DependentUpon>IDEIntroSimpleButtons.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\IDEIntroSimpleButtons.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\IDEMenu.Designer.vb">
+      <DependentUpon>IDEMenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\IDEMenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\MultiLineTextEditor.vb" />
+    <Compile Include="Modules\ucIntroVideoProperties.Designer.vb">
+      <DependentUpon>ucIntroVideoProperties.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\ucIntroVideoProperties.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\ucIntroImageProperties.Designer.vb">
+      <DependentUpon>ucIntroImageProperties.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\ucIntroImageProperties.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\ucIntroBGImageCover.Designer.vb">
+      <DependentUpon>ucIntroBGImageCover.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\ucIntroBGImageCover.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\ucIntroSimpleCover.Designer.vb">
+      <DependentUpon>ucIntroSimpleCover.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\ucIntroSimpleCover.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\ucIntroSimpleProperties.Designer.vb">
+      <DependentUpon>ucIntroSimpleProperties.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\ucIntroSimpleProperties.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\ucMenuProperties.Designer.vb">
+      <DependentUpon>ucMenuProperties.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\ucMenuProperties.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Program.vb" />
+    <Compile Include="Startup.Designer.vb">
+      <DependentUpon>Startup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Startup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Modules\DlgNewPage.resx">
+      <DependentUpon>DlgNewPage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\DlgNewProject.resx">
+      <DependentUpon>DlgNewProject.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\IDE.resx">
+      <DependentUpon>IDE.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\IDEIntroSimpleButtons.resx">
+      <DependentUpon>IDEIntroSimpleButtons.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\IDEMenu.resx">
+      <DependentUpon>IDEMenu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\ucIntroVideoProperties.resx">
+      <DependentUpon>ucIntroVideoProperties.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\ucIntroImageProperties.resx">
+      <DependentUpon>ucIntroImageProperties.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\ucIntroBGImageCover.resx">
+      <DependentUpon>ucIntroBGImageCover.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\ucIntroSimpleCover.resx">
+      <DependentUpon>ucIntroSimpleCover.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\ucIntroSimpleProperties.resx">
+      <DependentUpon>ucIntroSimpleProperties.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\ucMenuProperties.resx">
+      <DependentUpon>ucMenuProperties.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Startup.resx">
+      <DependentUpon>Startup.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Icon256.ico" />
+    <None Include="Resources\delete_16x16.png" />
+    <None Include="Resources\Icon256.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
